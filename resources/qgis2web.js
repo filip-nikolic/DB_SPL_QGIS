@@ -6,7 +6,7 @@ var map = new ol.Map({
     view: new ol.View({
          maxZoom: 28, minZoom: 1, projection: new ol.proj.Projection({
             code: 'EPSG:4326',
-            //extent: [6.021351, 47.397782, 15.031985, 54.907633],
+            //extent: [10.041178, 52.539418, 13.168452, 53.539090],
             units: 'degrees'})
     })
 });
@@ -1084,7 +1084,7 @@ let measuring = false;
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_Locations_new_5,
+    layer: lyr_Locations_new_4,
     colName: 'Objektkennung',
     zoom: 10,
     collapsed: true,
